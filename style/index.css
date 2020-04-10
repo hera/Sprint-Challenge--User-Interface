@@ -179,7 +179,7 @@ header nav a.active {
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -187,7 +187,7 @@ header nav a.active {
     align-items: center;
 }
 
-.middle-content .boxes .box {
+.box {
     width: 10rem;
     height: 10rem;
     background: black;
@@ -196,6 +196,46 @@ header nav a.active {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color: teal;
+}
+
+.box2 {
+    background-color: gold;
+}
+
+.box3 {
+    background-color: cadetblue;
+}
+
+.box4 {
+    background-color: coral;
+}
+
+.box5 {
+    background-color: crimson;
+}
+
+.box6 {
+    background-color: forestgreen;
+}
+
+.box7 {
+    background-color: darkorchid;
+}
+
+.box8 {
+    background-color: hotpink;
+}
+
+.box9 {
+    background-color: indigo;
+}
+
+.box10 {
+    background-color: dodgerblue;
 }
 
 
