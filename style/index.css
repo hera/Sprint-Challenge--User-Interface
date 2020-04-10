@@ -77,6 +77,15 @@ p {
     margin: 0 auto;
 }
 
+header,
+.top-content,
+.middle-content,
+.bottom-content,
+footer {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
 
 /* Header */
 
@@ -89,7 +98,7 @@ header {
 
 h1.logo {
     text-indent: -9999px;
-    margin-bottom: 40px;
+    margin-bottom: 4rem;
 }
 
 h1.logo a {
