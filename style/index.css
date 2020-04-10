@@ -270,6 +270,13 @@ header nav a.active {
     background-color: dodgerblue;
 }
 
+@media (min-width: 800px) {
+    .boxes {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
 
 /* Middle content */
 
