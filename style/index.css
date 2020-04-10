@@ -190,6 +190,15 @@ header nav a.active {
     padding-bottom: 2rem;  
 }
 
+@media (min-width: 800px) {
+    .top-content {
+        flex-direction: row;
+    }
+    .top-content .text-container {
+        width: 48%;
+    }
+}
+
 
 /* Middle content */
 
