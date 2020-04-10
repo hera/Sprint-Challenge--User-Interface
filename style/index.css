@@ -70,12 +70,17 @@ p {
 }
 
 .container {
-    width: 800px;
     margin: 0 auto;
 }
 
 
 /* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 h1.logo {
     text-indent: -9999px;
@@ -100,10 +105,10 @@ h1.logo a {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    flex-direction: column;
 }
 
 .top-content .text-container {
-    width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
@@ -125,10 +130,12 @@ h1.logo a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
 }
 
 .middle-content .boxes .box {
-    width: 12.5%;
+    width: 100px;
     height: 100px;
     background: black;
     margin: 20px 2.5%;
@@ -145,10 +152,12 @@ h1.logo a {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    flex-direction: column;
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
+    margin-bottom: 20px;
 }
 
 .bottom-content .text-container:last-child {
